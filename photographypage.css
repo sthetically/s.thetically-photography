@@ -1,0 +1,31 @@
+@charset "UTF-8";
+/* CSS Document */
+
+img {
+	padding-left: 400px;
+	padding-top: 15px;
+}
+
+header {
+	background-color: #EBCFC4;
+	justify-content: center;
+}
+
+footer {
+	text-align: center;
+	font-size: 12px;
+}
+
+body {
+	background-color: #C4BDAC;
+}
+
+#welcome {
+	text-align: center;
+	margin-top: 17%;
+	padding: 20px;
+}
+
+.pic {
+	width: 60%;
+}
