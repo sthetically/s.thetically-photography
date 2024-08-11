@@ -1,0 +1,120 @@
+@charset "UTF-8";
+/* CSS Document */
+
+header {
+	background-color: #EBCFC4;
+}
+
+a:link {
+	color: black;
+}
+
+a:hover, a:active {
+	color: #EBCFC4;
+}
+
+a:visited {
+	color: black;
+}
+
+nav a:hover {
+	color: #EBCFC4;
+}
+
+nav a:active {
+	color: #EBCFC4;
+}
+
+.body {
+	background-color: #C4BDAC;
+}
+
+#logo {
+	padding-top: 15px;
+	resize: inherit;
+}
+
+.welcome {
+	text-align: right;
+	font-family: cursive;
+	font-size: 20px;
+}
+
+#ask {
+	text-align: center;
+	font-family: cursive;
+	font-size: 20px;
+}
+
+.text {
+	text-align: center;
+	font-family: cursive;
+	font-size: 20px;
+}
+
+#footer {
+	text-align: center;
+	font-size: 14px;
+	background-color: #E8E6D9;
+	margin: 15px;
+	padding: 10px 5px;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 5px 50px;
+}
+
+.column {
+	flex: 50%;
+	padding: 0 4px;
+}
+
+.column img {
+	margin-top: 8px;
+	vertical-align: middle;
+}
+
+h1 {
+	text-align: center;
+	padding: 15px;
+	font-family: "Rouge Script", cursive;
+	font-weight: 400;
+	background-color: #E8E6D9;
+}
+
+p {
+	margin: 25px;
+	font-size: 18px;
+}
+
+.figure {
+	align-content: center;
+    position: relative;
+    width: 75%; 
+    max-width: 100%;
+  }
+  .figure img.Sirv.image-hover {
+	position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+  }
+  .figure:hover img.Sirv.image-hover {
+    opacity: 1;
+  }
+
+h6 {
+	margin: 25px;
+	font-size: 15px;
+}
+
+.card-img-top {
+	height: cover;
+	width: auto;
+}
